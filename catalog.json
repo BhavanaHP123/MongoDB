@@ -1,0 +1,27 @@
+[
+  {
+    "_id": 1,
+    "title": "The Amazing Smartphone (New Release)",
+    "description": "This cutting-edge smartphone boasts incredible features and a sleek design. It's perfect for mobile enthusiasts and everyday use."
+  },
+  {
+    "_id": 2,
+    "title": "Smart Home Hub",
+    "description": "This intelligent hub connects your smart home devices for seamless control and automation. Enhance your living experience with convenience."
+  },
+  {
+    "_id": 3,
+    "title": "Powerful Laptop",
+    "description": "This high-performance laptop tackles demanding tasks with ease. Perfect for creators, professionals, and anyone needing exceptional processing power."
+  },
+  {
+    "_id": 4,
+    "title": "Wireless Headphones (Discontinued)",
+    "description": "These wireless headphones offer great sound quality (Note: This model is discontinued. Consider newer options)."
+  },
+  {
+    "_id": 5,
+    "title": "Smartwatch (Coming Soon)",
+    "description": "This highly anticipated smartwatch is packed with features to enhance your health and productivity (Coming Soon!)."
+  }
+]
