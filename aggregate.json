@@ -1,0 +1,18 @@
+db.catalog.aggregate([
+  {
+    $match: {
+      $text: { $search: "smartphone" } // Perform text search for "smartphone"
+    }
+  },
+  {
+    $project: {
+      _id: 0, // Exclude _id for cleaner output
+      title: 1,
+      description: 1,
+      score: { $meta: "textScore" } // Include relevance score
+    }
+  },
+  {
+    $sort: { score: { $meta: "textScore" } } // Sort by relevance score (descending)
+  }
+])
